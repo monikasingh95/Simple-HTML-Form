@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GuruCool School of Creativity</title>
+    <link rel="icon"  type="image/jpg" sizes="16×16" href="favicon.jpg">
+
+
+</head>
+<meta charset = "utf-8" />
+<body>
+
+<style>
+    h1 {text-align: center;}
+    h2 {text-align: center;}
+    div {text-align: center;}
+</style>
+
+</body>
+<img style="display: inline;" src="favicon.jpg" />
+<h1 style="display: inline;"></h1>
+<h1  style = "color:darkgreen"> GuruCool School of Creativity</h1>
+<h2 style = "color:darkgreen"> Katol Road, Nagpur</h2>
+<h3 style = "color:blue"> Subject Selection  Form:</h3>
+
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <form>
+            <label for="male">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </form><br><br>
+
+        <label for="quantity">Roll Number (1 to 15):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="15"><br><br>
+
+        <label for="quantity">Class (8 to 12):</label>
+        <input type="number" id="quantity" name="quantity" min="8" max="12"><br><br>
+
+        <label for="fname">Subjects:</label><br>
+        <label> <input type="checkbox"> Humanities</label>
+        <label> <input type="checkbox"> Foreign Language</label><br>
+        <label> <input type="checkbox"> PE & Games</label>
+        <label> <input type="checkbox"> Personal Development Curriculums</label><br><br>
+
+        <form method="post" action="parse-textarea.php">
+            <p>In 25 words or less, tell us why are you choosing this subject:</p>
+            <p><textarea name="moreinfo" cols="60" rows="10" required="required">
+            </textarea><br/>
+                <input type="reset"></p>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+        <input type="submit" value="Submit"><br><br>
+        <a href="http://localhost:63342/MyFirstProject/GuruCool.html?_ijt=2d3jd2nclsbjr8ov4fjr2258r0">School Website</a>
+    </form>
+</html>
