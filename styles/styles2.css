@@ -1,7 +1,9 @@
 h1 {text-align: center;
-    color:darkgreen}
-h2 {text-align: center;
-    color:darkgreen}
+    color:white;
+    font-size: 19px;
+    font-family: Oswald, Roboto slab;
+}
+
 h3 {
     color:blue}
 
@@ -18,7 +20,7 @@ body {
 }
 
 .topnav a {
-    float: right;
+    float: left;
     color: ghostwhite;
     text-align: center;
     padding: 14px 16px;
@@ -35,6 +37,14 @@ body {
     background-color: darkolivegreen;
     color: whitesmoke;
 }
+
+img {
+    padding: 1px;
+    width: 45px;
+    float: right;
+    border-radius: 50%
+}
+
 
 
 
